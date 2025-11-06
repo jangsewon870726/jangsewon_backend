@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/transfer-service.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/transfer-service.api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bootstrap/transfer-service.bootstrap.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bootstrap/transfer-service.bootstrap.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/transfer-service.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/transfer-service.core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infra/transfer-service.infra.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infra/transfer-service.infra.main.iml" />

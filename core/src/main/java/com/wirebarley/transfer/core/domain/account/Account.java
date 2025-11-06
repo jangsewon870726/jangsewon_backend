@@ -1,9 +1,7 @@
 package com.wirebarley.transfer.core.domain.account;
 
-import com.wirebarley.transfer.core.exception.InsufficientFundsException;
-import com.wirebarley.transfer.core.exception.InvalidDepositAmountException;
-import com.wirebarley.transfer.core.exception.InvalidInitialBalanceException;
-import com.wirebarley.transfer.core.exception.InvalidWithdrawAmountException;
+import com.wirebarley.transfer.core.exception.BusinessException;
+import com.wirebarley.transfer.core.exception.ErrorCode;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -26,7 +24,7 @@ public class Account {
     @Builder
     public Account(Long id, String accountNumber, String ownerName, BigDecimal balance, LocalDateTime createdAt, LocalDateTime updatedAt) {
         if (balance == null || balance.compareTo(BigDecimal.ZERO) < 0) {
-            throw new InvalidInitialBalanceException();
+            throw new BusinessException(ErrorCode.INVALID_INITIAL_BALANCE);
         }
         this.id = id;
         this.accountNumber = accountNumber;
@@ -38,17 +36,17 @@ public class Account {
 
     public void withdraw(BigDecimal amount) {
         if (amount == null || amount.compareTo(BigDecimal.ZERO) <= 0) {
-            throw new InvalidWithdrawAmountException();
+            throw new BusinessException(ErrorCode.INVALID_WITHDRAW_AMOUNT);
         }
         if (this.balance.compareTo(amount) < 0) {
-            throw new InsufficientFundsException();
+            throw new BusinessException(ErrorCode.INSUFFICIENT_FUNDS);
         }
         this.balance = this.balance.subtract(amount);
     }
 
     public void deposit(BigDecimal amount) {
         if (amount == null || amount.compareTo(BigDecimal.ZERO) <= 0) {
-            throw new InvalidDepositAmountException();
+            throw new BusinessException(ErrorCode.INVALID_DEPOSIT_AMOUNT);
         }
         this.balance = this.balance.add(amount);
     }

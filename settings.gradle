@@ -1,0 +1,6 @@
+rootProject.name = 'transfer-service'
+
+include 'api'
+include 'core'
+include 'infra'
+include 'bootstrap'

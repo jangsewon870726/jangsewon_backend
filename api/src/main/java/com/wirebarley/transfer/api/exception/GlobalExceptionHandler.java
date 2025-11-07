@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @Slf4j
-// 모든 @RestController에 대해 전역적으로 동작
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
     /**
-     * [1순위] 우리가 리팩토링한 BusinessException 처리
      * 서비스 로직에서 throw new BusinessException(ErrorCode.XXX)
      */
     @ExceptionHandler(BusinessException.class)
@@ -39,7 +37,7 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * [2순위] @Valid 어노테이션을 통한 DTO 검증 실패 처리
+     * @Valid를 통한 DTO 검증 실패 처리
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidationException(MethodArgumentNotValidException e) {
@@ -51,14 +49,13 @@ public class GlobalExceptionHandler {
 
         log.warn("ValidationException occurred: {}", errorMessage);
 
-        // Validation 실패는 공통 코드를 사용 (e.g., "INVALID_INPUT_VALUE")
         ErrorResponse response = ErrorResponse.of("INVALID_INPUT_VALUE", errorMessage);
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 
     /**
-     * [3순위] 처리되지 않은 모든 예외 (500 Error)
-     * 위에서 @ExceptionHandler로 잡지 못한 모든 예외가 여기로 옵니다.
+     * 처리되지 않은 모든 예외 (500 Error)
+     * 위에서 @ExceptionHandler로 잡지 못한 모든 예외가 여기로
      */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleUnhandledException(Exception e) {

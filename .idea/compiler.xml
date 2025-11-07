@@ -7,7 +7,9 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.32/17d46b3e205515e1e8efd3ee4d57ce8018914163/lombok-1.18.32.jar" />
         </processorPath>
+        <module name="transfer-service.bootstrap.test" />
         <module name="transfer-service.api.main" />
+        <module name="transfer-service.api.test" />
         <module name="transfer-service.infra.main" />
         <module name="transfer-service.bootstrap.main" />
         <module name="transfer-service.core.main" />
@@ -17,6 +19,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="transfer-service.api" options="-parameters" />
+      <module name="transfer-service.api.main" options="-parameters" />
+      <module name="transfer-service.api.test" options="-parameters" />
       <module name="transfer-service.bootstrap" options="-parameters" />
       <module name="transfer-service.bootstrap.main" options="-parameters" />
       <module name="transfer-service.bootstrap.test" options="-parameters" />

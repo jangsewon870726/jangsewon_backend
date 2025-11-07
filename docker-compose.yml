@@ -1,4 +1,25 @@
 services:
+  app:
+    build: . # 현재 디렉토리의 Dockerfile을 빌드
+    container_name: transfer-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      # Docker 컨테이너 내부에서 DB에 접속하기 위한 URL
+      # (localhost 대신 db 서비스 이름을 사용, 포트는 컨테이너 내부 포트 5432)
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/transfer_db
+      - SPRING_DATASOURCE_USERNAME=user
+      - SPRING_DATASOURCE_PASSWORD=password123!
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      # application.properties의 다른 값들도 여기서 재정의(override)
+      - TRANSFER_POLICY_FEE-RATE=0.01
+      - TRANSFER_POLICY_DAILY-LIMIT=3000000
+      - WITHDRAW_POLICY_DAILY-LIMIT=1000000
+      - ACCOUNT_POLICY_PREFIX=110
+
+  # DB 서비스
   db:
     image: postgres:15
     container_name: transfer-db
@@ -7,7 +28,7 @@ services:
       POSTGRES_PASSWORD: password123!
       POSTGRES_DB: transfer_db
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 

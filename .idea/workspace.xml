@@ -5,15 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773ab362-3b0d-4a6d-a284-32a5d7c3f2a5" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/libs/api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/wirebarley/transfer/api/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/wirebarley/transfer/api/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/build/tmp/compileJava/compileTransaction/stash-dir/TransferServiceApplication.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/domain/account/Account$AccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/domain/account/Account$AccountBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/domain/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/domain/account/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/BusinessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/ErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/InsufficientFundsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/InvalidDepositAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/InvalidInitialBalanceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/exception/InvalidWithdrawAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/repository/AccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/wirebarley/transfer/core/repository/AccountRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/domain/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/domain/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/BusinessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/InsufficientFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/InvalidDepositAmountException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/InvalidInitialBalanceException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/exception/InvalidWithdrawAmountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/wirebarley/transfer/core/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/build/classes/java/main/com/wirebarley/transfer/infra/repository/account/AccountJpaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/build/libs/infra.jar" beforeDir="false" afterPath="$PROJECT_DIR$/infra/build/libs/infra.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/infra/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/entity/account/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/entity/account/AccountEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/entity/account/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/entity/account/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/repository/AccountRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/repository/AccountRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/repository/SpringDataAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/com/wirebarley/transfer/infra/repository/SpringDataAccountRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +63,35 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="transfer-service" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="transfer-service" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="transfer-service" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="transfer-service" type="f1a62948:ProjectNode" />
+                <item name="api" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -52,6 +110,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -63,25 +125,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.transfer-service 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TransferServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml: Compose 배포.executor": "Run",
+    "Gradle.AccountControllerTest (1).executor": "Run",
+    "Gradle.AccountControllerTest.executor": "Run",
+    "Gradle.transfer-service 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.TransferServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ\workspace\transfer-service\bootstrap\src\test\resources" />
+      <recent name="D:\IntelliJ\workspace\transfer-service\bootstrap\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose 배포">
+    <configuration name="AccountControllerTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":bootstrap:test" />
+            <option value="--tests" />
+            <option value="&quot;com.wirebarley.transfer.api.controller.AccountControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AccountControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":api:test" />
+            <option value="--tests" />
+            <option value="&quot;com.wirebarley.transfer.api.controller.AccountControllerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="TransferServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="transfer-service.bootstrap.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wirebarley.transfer.TransferServiceApplication" />
@@ -89,6 +215,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose 배포" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Gradle.AccountControllerTest (1)" />
+        <item itemvalue="Gradle.AccountControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -106,7 +266,11 @@
       <option name="presentableId" value="Default" />
       <updated>1762415919558</updated>
       <workItem from="1762415920724" duration="2083000" />
-      <workItem from="1762423781594" duration="10716000" />
+      <workItem from="1762423781594" duration="25484000" />
+      <workItem from="1762503498092" duration="991000" />
+      <workItem from="1762504511364" duration="2493000" />
+      <workItem from="1762507037599" duration="93000" />
+      <workItem from="1762507436048" duration="19120000" />
     </task>
     <servers />
   </component>

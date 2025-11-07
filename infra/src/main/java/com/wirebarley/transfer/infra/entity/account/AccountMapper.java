@@ -4,10 +4,6 @@ import com.wirebarley.transfer.core.domain.account.Account;
 
 public class AccountMapper {
 
-    /**
-     * Core Domain (Account) -> Infra Entity (AccountEntity)
-     * DB에 저장/수정하기 위해 변환
-     */
     public static AccountEntity toEntity(Account account) {
         if (account == null) {
             return null;
@@ -20,13 +16,12 @@ public class AccountMapper {
                 .balance(account.getBalance())
                 .createdAt(account.getCreatedAt())
                 .updatedAt(account.getUpdatedAt())
+                .status(account.getStatus())
+                .passwordHash(account.getPasswordHash())
+                .salt(account.getSalt())
                 .build();
     }
 
-    /**
-     * Infra Entity (AccountEntity) -> Core Domain (Account)
-     * DB에서 조회한 데이터를 비즈니스 로직에 전달하기 위해 변환
-     */
     public static Account toDomain(AccountEntity entity) {
         if (entity == null) {
             return null;
@@ -39,6 +34,9 @@ public class AccountMapper {
                 .balance(entity.getBalance())
                 .createdAt(entity.getCreatedAt())
                 .updatedAt(entity.getUpdatedAt())
+                .status(entity.getStatus())
+                .passwordHash(entity.getPasswordHash())
+                .salt(entity.getSalt())
                 .build();
     }
 }

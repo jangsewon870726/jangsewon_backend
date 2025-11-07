@@ -1,5 +1,6 @@
 package com.wirebarley.transfer.infra.repository;
 
+import com.wirebarley.transfer.core.domain.account.Account;
 import com.wirebarley.transfer.infra.entity.account.AccountEntity;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -11,9 +12,13 @@ import java.util.Optional;
 
 public interface SpringDataAccountRepository extends JpaRepository<AccountEntity, Long> {
 
-    Optional<AccountEntity> findByAccountNumber(String accountNumber);
+    Optional<AccountEntity> findByAccountNumberAndStatus(String accountNumber, Account.AccountStatus status);
 
     @Lock(LockModeType.PESSIMISTIC_WRITE)
-    @Query("SELECT a FROM AccountEntity a WHERE a.id = :id")
-    Optional<AccountEntity> findByIdWithLock(@Param("id") Long id);
+    @Query("SELECT a FROM AccountEntity a WHERE a.id = :id AND a.status = :status")
+    Optional<AccountEntity> findByIdWithLockAndStatus(@Param("id") Long id, @Param("status") Account.AccountStatus status);
+
+    boolean existsByAccountNumberAndStatus(String accountNumber, Account.AccountStatus status);
+
+    boolean existsByAccountNumber(String accountNumber);
 }

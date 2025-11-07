@@ -17,7 +17,6 @@ public class AccountRepositoryImpl implements AccountRepository {
 
     @Override
     public Account save(Account account) {
-        // Domain -> Entity 변환
         AccountEntity entity = AccountMapper.toEntity(account);
         AccountEntity savedEntity = jpaRepository.save(entity);
         return AccountMapper.toDomain(savedEntity);
@@ -31,7 +30,7 @@ public class AccountRepositoryImpl implements AccountRepository {
 
     @Override
     public Optional<Account> findByAccountNumber(String accountNumber) {
-        return jpaRepository.findByAccountNumber(accountNumber)
+        return jpaRepository.findByAccountNumberAndStatus(accountNumber, Account.AccountStatus.ACTIVE)
                 .map(AccountMapper::toDomain);
     }
 
@@ -43,7 +42,12 @@ public class AccountRepositoryImpl implements AccountRepository {
 
     @Override
     public Optional<Account> findByIdWithLock(Long id) {
-        return jpaRepository.findByIdWithLock(id)
+        return jpaRepository.findByIdWithLockAndStatus(id, Account.AccountStatus.ACTIVE)
                 .map(AccountMapper::toDomain);
+    }
+
+    @Override
+    public boolean existsByAccountNumber(String accountNumber) {
+        return jpaRepository.existsByAccountNumber(accountNumber);
     }
 }
